@@ -1,0 +1,95 @@
+STORY_START
+id: 1
+title: The Midnight Garden
+author: Elena Rodriguez
+description: A magical tale about a young girl who discovers a secret garden that only appears at midnight, where time moves differently and forgotten dreams take root.
+type: short
+genre: Fantasy
+wordCount: 850
+readingTime: 4
+publishDate: 2024-01-15
+contentFile: story-1.txt
+STORY_END
+
+STORY_START
+id: 2
+title: The Last Bookbinder
+author: Marcus Chen
+description: In a world where digital has replaced physical books, an elderly craftsman holds ancient secrets that may be humanity's last hope.
+type: short
+genre: Dystopian
+wordCount: 1200
+readingTime: 5
+publishDate: 2024-01-20
+contentFile: story-2.txt
+STORY_END
+
+STORY_START
+id: 3
+title: Chronicles of the Digital Realm
+author: Alex Thompson
+description: An epic fantasy series where magic and technology intertwine across three thrilling chapters.
+type: series
+genre: Fantasy/Sci-Fi
+status: completed
+totalChapters: 3
+totalWordCount: 15000
+averageReadingTime: 60
+publishDate: 2024-01-15
+chapters: chapter-3-1.txt,chapter-3-2.txt,chapter-3-3.txt
+chapterTitles: The Last Coder,The Archive Keeper,The Final Debug
+chapterSubtitles: Awakening,Descent,Resolution
+chapterWordCounts: 4500,5200,5300
+chapterReadingTimes: 18,21,22
+chapterPublishDates: 2024-01-15,2024-01-22,2024-01-29
+STORY_END
+
+STORY_START
+id: 4
+title: The Wanderer's Tale
+author: Sarah Mitchell
+description: A full-length mystery novel about a stranger who arrives in a small town with dangerous secrets that could change everything.
+type: novel
+genre: Mystery/Adventure
+status: completed
+totalChapters: 5
+totalWordCount: 25000
+averageReadingTime: 100
+publishDate: 2024-02-01
+chapters: chapter-4-1.txt,chapter-4-2.txt,chapter-4-3.txt,chapter-4-4.txt,chapter-4-5.txt
+chapterTitles: Arrival,The Stranger's Story,Secrets in the Attic,The Hidden Truth,Resolution
+chapterWordCounts: 3200,3800,4100,4500,4200
+chapterReadingTimes: 13,15,16,18,17
+STORY_END
+
+STORY_START
+id: 5
+title: Whispers in the Void
+author: Anonymous
+description: A chilling horror story about mysterious radio signals from the depths of space that reveal a terrifying truth.
+type: short
+genre: Horror/Sci-Fi
+wordCount: 950
+readingTime: 4
+publishDate: 2024-03-01
+contentFile: story-5.txt
+STORY_END
+
+STORY_START
+id: 6
+title: The Memory Thief Chronicles
+author: Isabella Voss
+description: A dystopian series exploring a world where memories can be stolen and sold on the black market.
+type: series
+genre: Dystopian Sci-Fi
+status: ongoing
+totalChapters: 3
+totalWordCount: 12000
+averageReadingTime: 48
+publishDate: 2024-02-01
+chapters: chapter-6-1.txt,chapter-6-2.txt,chapter-6-3.txt
+chapterTitles: Stolen Moments,The Collector,The Underground
+chapterWordCounts: 3500,4200,4300
+chapterReadingTimes: 14,17,17
+chapterPublishDates: 2024-02-01,2024-02-15,2024-03-01
+STORY_END
