@@ -1,0 +1,56 @@
+{
+  "stories": [
+    {
+      "id": 1,
+      "title": "The Midnight Garden",
+      "author": "Elena Rodriguez",
+      "description": "A magical tale about a young girl who discovers a secret garden that only appears at midnight.",
+      "type": "short-story",
+      "genre": "Fantasy",
+      "wordCount": 850,
+      "readingTime": 4,
+      "publishDate": "2024-01-15",
+      "contentFile": "stories/midnight-garden.txt"
+    },
+    {
+      "id": 2,
+      "title": "The Last Bookbinder",
+      "author": "Marcus Chen",
+      "description": "In a world where digital has replaced physical books, an elderly craftsman holds ancient secrets.",
+      "type": "short-story",
+      "genre": "Dystopian",
+      "wordCount": 1200,
+      "readingTime": 5,
+      "publishDate": "2024-01-20",
+      "contentFile": "stories/last-bookbinder.md"
+    },
+    {
+      "id": 3,
+      "title": "Chronicles of the Digital Realm",
+      "author": "Alex Thompson",
+      "description": "An epic fantasy series set in a world where magic and technology intertwine.",
+      "type": "series",
+      "genre": "Fantasy/Sci-Fi",
+      "status": "completed",
+      "totalChapters": 3,
+      "totalWordCount": 15000,
+      "averageReadingTime": 20,
+      "publishDate": "2024-01-15",
+      "chaptersFile": "series/digital-realm/chapters.json"
+    },
+    {
+      "id": 4,
+      "title": "The Wanderer's Tale",
+      "author": "Sarah Mitchell",
+      "description": "A full-length novel about a mysterious traveler who appears in a small town with secrets that could change everything.",
+      "type": "novel",
+      "genre": "Mystery/Adventure",
+      "status": "completed",
+      "totalChapters": 24,
+      "totalWordCount": 85000,
+      "averageReadingTime": 340,
+      "publishDate": "2024-02-01",
+      "chaptersFile": "novels/wanderers-tale/chapters.json"
+    }
+  ]
+}

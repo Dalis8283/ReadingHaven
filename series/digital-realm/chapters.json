@@ -1,0 +1,42 @@
+{
+  "seriesInfo": {
+    "id": 3,
+    "title": "Chronicles of the Digital Realm",
+    "author": "Alex Thompson",
+    "description": "An epic fantasy series set in a world where magic and technology intertwine.",
+    "totalChapters": 3,
+    "status": "completed"
+  },
+  "chapters": [
+    {
+      "id": "3-1",
+      "chapterNumber": 1,
+      "title": "The Last Coder",
+      "subtitle": "Awakening",
+      "wordCount": 4500,
+      "readingTime": 18,
+      "publishDate": "2024-01-15",
+      "contentFile": "series/digital-realm/chapter-01.txt"
+    },
+    {
+      "id": "3-2",
+      "chapterNumber": 2,
+      "title": "The Archive Keeper",
+      "subtitle": "Descent",
+      "wordCount": 5200,
+      "readingTime": 21,
+      "publishDate": "2024-01-22",
+      "contentFile": "series/digital-realm/chapter-02.txt"
+    },
+    {
+      "id": "3-3",
+      "chapterNumber": 3,
+      "title": "The Final Debug",
+      "subtitle": "Resolution",
+      "wordCount": 5300,
+      "readingTime": 22,
+      "publishDate": "2024-01-29",
+      "contentFile": "series/digital-realm/chapter-03.txt"
+    }
+  ]
+}

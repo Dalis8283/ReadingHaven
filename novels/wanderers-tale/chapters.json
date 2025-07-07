@@ -1,0 +1,37 @@
+{
+  "novelInfo": {
+    "id": 4,
+    "title": "The Wanderer's Tale",
+    "author": "Sarah Mitchell",
+    "description": "A full-length novel about a mysterious traveler who appears in a small town with secrets that could change everything.",
+    "totalChapters": 24,
+    "status": "completed",
+    "genre": "Mystery/Adventure"
+  },
+  "chapters": [
+    {
+      "id": "4-1",
+      "chapterNumber": 1,
+      "title": "Arrival",
+      "wordCount": 3200,
+      "readingTime": 13,
+      "contentFile": "novels/wanderers-tale/chapter-01.txt"
+    },
+    {
+      "id": "4-2",
+      "chapterNumber": 2,
+      "title": "The Stranger's Story",
+      "wordCount": 3800,
+      "readingTime": 15,
+      "contentFile": "novels/wanderers-tale/chapter-02.txt"
+    },
+    {
+      "id": "4-3",
+      "chapterNumber": 3,
+      "title": "Secrets in the Attic",
+      "wordCount": 4100,
+      "readingTime": 16,
+      "contentFile": "novels/wanderers-tale/chapter-03.txt"
+    }
+  ]
+}

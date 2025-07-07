@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Haven - Enhanced for Long Stories</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <!-- Loading State -->
+        <div id="loading" class="loading-container">
+            <div class="loading-content">
+                <i class="fas fa-book loading-icon"></i>
+                <p id="loading-text">Loading stories...</p>
+            </div>
+        </div>
+
+        <!-- Story List View -->
+        <div id="story-list" class="view hidden">
+            <div class="container">
+                <header class="main-header">
+                    <div class="header-content">
+                        <i class="fas fa-book header-icon"></i>
+                        <h1>Story Haven</h1>
+                    </div>
+                    <p class="header-subtitle">Discover captivating tales from short stories to full novels</p>
+                </header>
+
+                <div id="stories-grid" class="stories-grid">
+                    <!-- Stories will be populated here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Series View -->
+        <div id="series-view" class="view hidden">
+            <div class="container">
+                <button id="back-to-stories" class="back-button">
+                    <i class="fas fa-arrow-left"></i>
+                    Back to Stories
+                </button>
+
+                <div id="series-info" class="series-info">
+                    <!-- Series information will be populated here -->
+                </div>
+
+                <div class="chapters-section">
+                    <h2>Chapters</h2>
+                    <div id="chapters-list" class="chapters-list">
+                        <!-- Chapters will be populated here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Reading View -->
+        <div id="reading-view" class="view hidden">
+            <div class="container">
+                <div class="reading-header">
+                    <button id="back-from-reading" class="back-button">
+                        <i class="fas fa-arrow-left"></i>
+                        <span id="back-text">Back to Stories</span>
+                    </button>
+
+                    <div id="chapter-navigation" class="chapter-nav hidden">
+                        <button id="prev-chapter" class="nav-button" disabled>
+                            <i class="fas fa-chevron-left"></i>
+                            Previous
+                        </button>
+                        <span id="chapter-progress" class="chapter-progress"></span>
+                        <button id="next-chapter" class="nav-button" disabled>
+                            Next
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <article id="story-content" class="story-content">
+                    <!-- Story content will be populated here -->
+                </article>
+
+                <!-- Reading Progress -->
+                <div id="reading-progress" class="reading-progress">
+                    <div class="progress-bar">
+                        <div id="progress-fill" class="progress-fill"></div>
+                    </div>
+                    <div class="progress-info">
+                        <span id="word-count">0 words</span>
+                        <span id="reading-time">~0 min read</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
